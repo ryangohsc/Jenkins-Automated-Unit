@@ -17,7 +17,7 @@ pipeline {
 		}
 	}
 	post {
-		aways {
+		always {
 			junit testResults: 'logs/unitreport.xml'
 		}
 	}
